@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,700&display=swap');
+
+*{
+    
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-color: gray;
+}
+#titlecard{
+    background-color: aqua;
+    text-align: center;
+}
+main{
+    text-align: center;
+   background-color: antiquewhite;
+   padding: 20px;
+   margin: 20px auto;
+   width: 50%;
+   
+}
+main>div>h3{
+    color: palevioletred;
+}
+.input-food{
+    width: 200px;
+    outline: gray;
+    border-radius: 3px;
+    height: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    
+}
+.input-btn{
+    background-color: darkmagenta;
+    color: aliceblue;
+    width: 50px;
+    border-radius: 3px ;
+    padding: 5px;
+    pointer-events: fill;
+    cursor: pointer;
+    
+}
